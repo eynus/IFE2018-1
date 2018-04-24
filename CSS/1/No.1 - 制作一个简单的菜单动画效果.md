@@ -1,6 +1,6 @@
 # No.1 - 制作一个简单的菜单动画效果
 
-[预览]()
+[预览](https://unbrain.github.io/IFE2018/CSS//1/index.html)
 ##　学习资料
 
 - [MDN transitions](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
