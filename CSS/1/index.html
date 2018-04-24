@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        *{
+            margin: 0;
+            border: 0;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        body > button {
+            margin-top: 2em;
+        }
+        .txtb {
+            background: chartreuse;
+            height: .5em;
+            width: 0;
+            transition: all 1s; 
+            margin: 0 auto;
+        }
+        .txtb.active {
+            background: chartreuse;
+            width: 100%;
+        }
+
+    </style>
+    <title>No.1 - 制作一个简单的菜单动画效果</title>
+</head>
+<body>
+    <div>
+        <h1 class="text" id="txt">制作一个简单的菜单动画效果</h1>
+        <div class="txtb" id="txtb"></div>
+    </div>
+    
+    <button class=".bt" id="bt">切换样式</button>
+    <script>
+        
+        bt.addEventListener('click', (e) => {
+            txtb.classList.add('active')
+            setTimeout(() => {
+                txtb.classList.remove('active')
+            }, 1000);
+        })
+    </script>
+</body>
+</html>
