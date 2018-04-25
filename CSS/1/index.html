@@ -26,11 +26,16 @@
             padding: 1em 2em;
             margin-top: 2em;
             color: whitesmoke;
+            cursor: pointer;
+        }
+
+        .txt-wrapper{
+            background: rgba(0, 255, 255, 0.2);
         }
 
         .txt {
             transition: all 1s;
-            background: rgba(0, 255, 255, 0.2);
+           
         }
 
         .txt.active {
@@ -53,12 +58,12 @@
 </head>
 
 <body>
-    <div>
+    <div class="txt-wrapper">
         <h1 class="txt" id="txt">IFE　Front－end</h1>
         <div class="txtb" id="txtb"></div>
     </div>
 
-    <button class=".bt" id="bt">切换样式</button>
+    <button class="bt" id="bt">切换样式</button>
     <script>
         function isClick() {
             let isClick = false
