@@ -1,5 +1,7 @@
 # day02
 
+[预览](https://unbrain.github.io/IFE2018/Front-end//2/index.html)
+
 ### HTML是什么，HTML5是什么
 
 超文本标记语言，HTML5 是对 HTML 第五次修改
